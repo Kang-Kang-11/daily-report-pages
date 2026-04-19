@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行业动态日报｜2026-04-19</title>
+  <style>
+    :root{--bg:#f3f7fd;--card:#ffffff;--line:#d9e5f5;--line-strong:#c7daf8;--text:#1e293b;--muted:#64748b;--blue:#2f6df6;--panel:#eef5ff;}
+    *{box-sizing:border-box;}
+    body{margin:0;background:linear-gradient(180deg,#f7fbff 0%,#eff5fc 100%);color:var(--text);font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .wrap{max-width:920px;margin:0 auto;padding:16px;}
+    .surface{background:rgba(255,255,255,.72);border:1px solid #d7e5f6;border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(77,114,170,.12);backdrop-filter:blur(8px);}
+    html{scroll-behavior:smooth;}
+    .hero{display:flex;justify-content:space-between;align-items:center;padding:26px 28px;background:linear-gradient(135deg,#cfe3fb 0%,#ddecff 100%);border-bottom:1px solid var(--line-strong);}
+    .hero-kicker{font-size:15px;font-weight:700;color:var(--blue);letter-spacing:.02em;margin:0 0 6px;}
+    .hero-title{font-size:18px;font-weight:700;color:#58708f;margin:0;}
+    .hero-button{display:inline-flex;align-items:center;justify-content:center;min-width:118px;padding:13px 18px;border-radius:999px;background:#fff;color:#536b8f;font-size:17px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(90,125,179,.12);}
+    .content{padding:24px 24px 30px;}
+    h1{margin:0 0 22px;font-size:44px;line-height:1.12;font-weight:800;color:#1f2937;}
+    .meta-stack{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;}
+    .meta-card{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid #dbe4f2;border-radius:24px;padding:20px 22px;box-shadow:0 8px 24px rgba(148,163,184,.08);min-width:0;}
+    .meta-icon{width:62px;height:62px;display:flex;align-items:center;justify-content:center;border-radius:20px;background:#f2f6fc;font-size:32px;flex:0 0 auto;}
+    .meta-label{font-size:15px;color:#6b7280;font-weight:700;margin-bottom:6px;}
+    .meta-value{font-size:22px;line-height:1.4;font-weight:800;color:#1f2937;}
+    .summary-panel{background:linear-gradient(180deg,#eff5ff 0%,#f3f8ff 100%);border:2px solid var(--line-strong);border-radius:32px;padding:24px 20px 14px;margin-bottom:22px;}
+    .summary-heading{display:flex;align-items:center;gap:16px;margin-bottom:18px;}
+    .summary-heading .icon{font-size:30px;}
+    .summary-heading h2{margin:0;font-size:35px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .summary-card{background:var(--card);border:2px solid #dbe7f7;border-radius:24px;padding:20px 22px;font-size:20px;line-height:1.85;color:#334155;box-shadow:0 8px 24px rgba(148,163,184,.06);margin-bottom:16px;}
+    .summary-label{font-weight:800;color:#1f2937;}
+    .section-block{margin:22px 0 24px;}
+    .section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;}
+    .section-title-wrap{display:flex;align-items:center;gap:14px;min-width:0;}
+    .section-emoji{font-size:32px;line-height:1;}
+    h2{margin:0;font-size:32px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .section-badge{display:inline-flex;align-items:center;justify-content:center;min-width:76px;padding:8px 14px;border-radius:999px;border:2px solid #e5e7eb;background:#fff;color:#475569;font-size:16px;font-weight:700;box-shadow:0 6px 18px rgba(148,163,184,.08);}
+    .news-card,.empty-card{background:var(--card);border:2px solid #e3e8f0;border-radius:24px;padding:22px 24px;box-shadow:0 10px 26px rgba(148,163,184,.08);}
+    .news-card + .news-card{margin-top:16px;}
+    .item-title{font-size:24px;line-height:1.45;font-weight:800;color:#1f2937;margin:0 0 14px;}
+    .item-meta,.item-point,.empty-card{font-size:18px;line-height:1.85;color:#475569;}
+    .item-meta{margin:0 0 8px;}
+    .item-point{margin:0;}
+    .item-label{font-weight:800;color:#334155;}
+    .item-sep{color:#94a3b8;margin:0 8px;}
+    .empty-card{color:#64748b;}
+    a{color:#2f6df6;text-decoration:none;font-weight:700;}
+    @media (max-width: 768px){
+      .wrap{padding:8px;}
+      .hero{padding:22px 20px;align-items:flex-start;gap:16px;}
+      .hero-button{min-width:108px;padding:13px 16px;font-size:16px;}
+      .content{padding:22px 18px 28px;}
+      h1{font-size:28px;margin-bottom:18px;}
+      .meta-stack{grid-template-columns:1fr;}
+      .meta-card{padding:18px 18px;gap:16px;border-radius:22px;}
+      .meta-icon{width:54px;height:54px;border-radius:18px;font-size:28px;}
+      .meta-value{font-size:18px;}
+      .summary-panel{padding:20px 16px 10px;border-radius:26px;}
+      .summary-heading h2{font-size:25px;}
+      .summary-card{padding:18px 18px;font-size:16px;line-height:1.8;border-radius:22px;}
+      .section-emoji{font-size:24px;}
+      h2{font-size:24px;}
+      .section-badge{min-width:64px;padding:7px 12px;font-size:14px;}
+      .news-card,.empty-card{padding:20px 20px;border-radius:22px;}
+      .item-title{font-size:20px;margin-bottom:12px;}
+      .item-meta,.item-point,.empty-card{font-size:16px;line-height:1.8;}
+    }
+  </style>
+</head>
+<body><div class="wrap"><div class="surface">
+<div class="hero">
+  <div class="hero-copy">
+    <div class="hero-kicker">Market Intel Daily</div>
+    <div class="hero-title">行业情报播报 · 钉钉内页预览版</div>
+  </div>
+  <a class="hero-button" href="#industry-news">查看资讯</a>
+</div>
+<div class="content" id="news-content">
+<h1>行业动态日报</h1>
+<div class="meta-stack">
+<div class="meta-card"><div class="meta-icon">🕒</div><div class="meta-copy"><div class="meta-label">统计日期</div><div class="meta-value">2026-04-19（星期日）</div></div></div>
+<div class="meta-card"><div class="meta-icon">📍</div><div class="meta-copy"><div class="meta-label">覆盖范围</div><div class="meta-value">宏观 / AI招聘 / 具身智能 / 竞品</div></div></div>
+</div>
+<section class="summary-panel">
+<div class="summary-heading"><span class="icon">📋</span><h2>核心发现摘要</h2></div>
+<div class="summary-card"><span class="summary-label">宏观政策与行业：</span>国内外同时出现“新岗位开发、零工市场标准化、企业人才培养平台化”三条线并进，政策与企业端都在重塑灵活就业和用工供给体系。</div>
+<div class="summary-card"><span class="summary-label">AI招聘/面试：</span>AI 正从招聘提效工具延展到 HR 运营底座与人才评估体系，产品发布、商业化验证与 AI 能力考核正在并行加速。</div>
+<div class="summary-card"><span class="summary-label">具身智能资讯：</span>最近 7 天的主线高度集中在“数据基础设施补课+真实场景验证”，开源数据集、数据流通平台、数据服务平台与真实产线落地同步推进。</div>
+<div class="summary-card"><span class="summary-label">竞品动态：</span>平台型公司开始从传统本地生活或招聘边界外扩，尝试切入 C2C 技能服务与副业撮合，灵活就业流量入口竞争升温。</div>
+</section>
+<section class="section-block" id="industry-news">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">📊</span><h2>行业宏观资讯</h2></div>
+    <div class="section-badge">5 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">浙江首个《零工市场服务与运营规范》正式发布</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-15 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://zjic.zj.gov.cn/ywdh/qyfz/202604/t20260414_24034340.shtml" target="_blank" rel="noreferrer">浙江省经济信息中心</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>浙江正式发布全国首个省级零工市场服务与运营地方标准，明确将零工市场建设、服务和运营纳入统一规范框架，余杭的“就培一体”“15分钟就业服务圈”等实践被上升为省级标准化经验。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">山东18部门印发灵活就业健康发展行动方案</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-13 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.sdxc.gov.cn/sy/jrywsy/202604/t20260413_17629122.htm" target="_blank" rel="noreferrer">山东宣传网 / 大众日报</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>《关于推动灵活就业“向新向智向优向高”健康发展的行动方案》提出 4 个方面 16 条举措，明确在数字经济、绿色经济、银发经济、赛事经济等领域开发“数字游民”“绿领员工”“内容创作者”等新岗位，并支持灵活就业人员承接 AI 企业外包服务。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">2026年度集体协商“集中要约行动”启动，平台规则协商被进一步强化</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-16 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.hbshgzb.gov.cn/2026-04/16/content_9501546.htm" target="_blank" rel="noreferrer">河北省委社会工作部 / 中国社会工作报</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>全国总工会、人社部等四方联合开展 2026 年度集体协商“集中要约行动”，明确在重点产业园区和平台经济领域深化劳动规则与算法协商，推动新就业形态劳动者权益协商常态化、制度化。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">加州批准首个 AI 注册学徒项目（双重联邦-州认可）</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-16 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/california-approves-first-ai-registered-apprenticeship-as-creating-coding-careers-secures-dual-federal-state-recognition-across-nine-tech-occupations-302744783.html" target="_blank" rel="noreferrer">PR Newswire / Creating Coding Careers</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>该项目覆盖 AI、云、数据、软件等 9 类岗位，明确可使用州级学徒资金，强化“以技能为中心”的技术人才供给路径，体现海外市场也在通过制度化培训机制补足 AI 人才供给。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">Kroger 发布 Pearl Street Academy 企业人才发展平台</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-16 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/kroger-launches-pearl-street-academy-302745182.html" target="_blank" rel="noreferrer">PR Newswire / Kroger</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>平台将领导力与岗位发展培训集中化，反映大型企业正把人才培养、内部流动与组织能力建设平台化，这与国内“新岗位开发+技能升级”的政策方向形成呼应。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🤖</span><h2>AI相关资讯</h2></div>
+    <div class="section-badge">4 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">金蝶 AI 原生产品签约金额达 2.3 亿元，AI 商业化价值继续兑现</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-13 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-04-13/doc-inhuixwz9767694.shtml" target="_blank" rel="noreferrer">新浪财经 / 智通财经</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>截至 2026 年 3 月 31 日，金蝶订阅服务 ARR 约 42.2 亿元，同比增长约 19%；一季度 AI 原生产品签约合同金额达 2.3 亿元，显示 AI+SaaS 已不只是概念验证，而是开始转化为可量化的签约与续费表现。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">北森继续强化 AI 假勤与排班能力，HR 运营场景原生 AI 化提速</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-14 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.beisen.com/res/2420.html" target="_blank" rel="noreferrer">北森官网</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>北森最新公开内容继续主打 AI 智能排班、多方式智能考勤、复杂工时计算、移动审批与合规预警，说明 AI 在 HR 场景中的落地方向已不只停留在招聘面试，而是向考勤、排班、算薪与用工风险控制等运营环节延展。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">牛客披露 AI 能力考核即将上线，招聘评估口径转向“人+AI交付能力”</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-10 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.sohu.com/a/1007818757_100113173?scm=10001.325_13-325_13.0.0-0-0-0-0.5_1334" target="_blank" rel="noreferrer">搜狐</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>公开稿显示，牛客将 AI 应用能力拆解为人机协作、专业度、AI 认知、AI 思维四个维度，并设计 AI 常识、提示词能力、AI 实战能力三类考核，反映出企业招聘评价标准正从“会什么”转向“借助 AI 能交付什么”。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">Technician Find 发布 EasyBench，内置 AI Recruiting Toolkit</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-14 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/technician-find-launches-easybench-to-end-reactive-hiring-for-auto-shops-302740811.html" target="_blank" rel="noreferrer">PR Newswire / Technician Find</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>面向汽车维修门店招聘场景，产品采用订阅制（$249/月），强调“持续候选人储备 + AI 辅助触达”，说明中小行业场景也在出现低门槛、工具包式 AI 招聘产品。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🦾</span><h2>具身智能资讯</h2></div>
+    <div class="section-badge">5 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">灵初智能发布 Psi-R2/Psi-W0，并开源 10 万小时级手部操作数据集</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-15 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/stock/t/2026-04-15/doc-inhupvff8477352.shtml" target="_blank" rel="noreferrer">新浪财经 / 科技日报</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>灵初智能宣布开源首批 1000 小时人类手部操作全模态数据集，总储备达 10 万小时，强调以“数据+模型”双轮驱动具身智能落地；这类高精度、多模态、可开源的数据集正成为产业抢占训练基础设施的核心抓手。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">百度智能云联合多家企业推出“具身智能数据超市（Beta版）”</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-10 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/roll/2026-04-10/doc-inhtztir4999832.shtml" target="_blank" rel="noreferrer">新浪财经 / 证券时报e公司</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>百度智能云联合零次方、灵生、傅利叶等企业推出“具身智能数据超市（Beta版）”，以层级化、可扩展的数据标签体系和“百舸”异构计算平台支持数据托管与展示，标志着行业开始从“各家自采自用”转向数据流通基础设施建设。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">觅蜂科技宣布发布一站式物理 AI 数据服务平台</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-15 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/tech/roll/2026-04-15/doc-inhuqfuz8458888.shtml" target="_blank" rel="noreferrer">新浪财经 / 机器之心Pro</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>觅蜂科技宣布将于 4 月 16 日发布一站式物理 AI 数据服务平台，直接回应真机采集成本高、数据标准混乱、供需分散等行业痛点，说明具身智能赛道正在从模型竞赛转向“数据服务平台化”竞赛。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">智元机器人完成 8 小时真实产线连续作业直播验证</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-16 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/wm/2026-04-16/doc-inhuskun1672271.shtml" target="_blank" rel="noreferrer">新浪财经 / 科技日报</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>智元精灵 G2 在龙旗南昌工厂连续 8 小时执行精密上下料与人机协同作业，成功率达 99.5% 以上、单小时完成 310 件产品，显示具身智能正在从“数据准备期”向“真实生产验证期”同步推进。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">AGIBOT 发布新一代具身智能机器人与模型，强调规模化部署</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-18 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://en.prnasia.com/releases/apac/agibot-unveils-new-generation-of-embodied-ai-robots-and-models-accelerating-real-world-deployment-of-physical-ai-529600.shtml" target="_blank" rel="noreferrer">PR Newswire APAC / AGIBOT</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>发布内容覆盖机器人本体、数据采集系统与基础模型（含仿真与在线学习能力），主线从“能力展示”转向“可量化生产力落地”，与国内最近的数据基础设施建设形成上下游呼应。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🏢</span><h2>竞品动态</h2></div>
+    <div class="section-badge">1 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">美团测试“妙蛙副业”，切入 C2C 兼职与个人技能服务赛道</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-15 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://finance.sina.com.cn/stock/t/2026-04-15/doc-inhuqwsw3347251.shtml" target="_blank" rel="noreferrer">新浪财经 / 科创板日报</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>美团 App 首页上线全新兼职频道“妙蛙副业”，在上海、深圳、成都等城市启动灰度测试，定位为个体技能服务消费社区，撮合知识技能、体验陪伴、生活代办等非标 C2C 交易，说明平台型公司也在加速争夺灵活就业和副业流量入口。</div>
+</article>
+</section>
+</div></div></div></body></html>
