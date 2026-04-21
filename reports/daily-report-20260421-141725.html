@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行业动态日报｜2026-04-21</title>
+  <style>
+    :root{--bg:#f3f7fd;--card:#ffffff;--line:#d9e5f5;--line-strong:#c7daf8;--text:#1e293b;--muted:#64748b;--blue:#2f6df6;--panel:#eef5ff;}
+    *{box-sizing:border-box;}
+    body{margin:0;background:linear-gradient(180deg,#f7fbff 0%,#eff5fc 100%);color:var(--text);font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .wrap{max-width:920px;margin:0 auto;padding:16px;}
+    .surface{background:rgba(255,255,255,.72);border:1px solid #d7e5f6;border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(77,114,170,.12);backdrop-filter:blur(8px);}
+    html{scroll-behavior:smooth;}
+    .hero{display:flex;justify-content:space-between;align-items:center;padding:26px 28px;background:linear-gradient(135deg,#cfe3fb 0%,#ddecff 100%);border-bottom:1px solid var(--line-strong);}
+    .hero-kicker{font-size:15px;font-weight:700;color:var(--blue);letter-spacing:.02em;margin:0 0 6px;}
+    .hero-title{font-size:18px;font-weight:700;color:#58708f;margin:0;}
+    .hero-button{display:inline-flex;align-items:center;justify-content:center;min-width:118px;padding:13px 18px;border-radius:999px;background:#fff;color:#536b8f;font-size:17px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(90,125,179,.12);}
+    .content{padding:24px 24px 30px;}
+    h1{margin:0 0 22px;font-size:44px;line-height:1.12;font-weight:800;color:#1f2937;}
+    .meta-stack{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;}
+    .meta-card{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid #dbe4f2;border-radius:24px;padding:20px 22px;box-shadow:0 8px 24px rgba(148,163,184,.08);min-width:0;}
+    .meta-icon{width:62px;height:62px;display:flex;align-items:center;justify-content:center;border-radius:20px;background:#f2f6fc;font-size:32px;flex:0 0 auto;}
+    .meta-label{font-size:15px;color:#6b7280;font-weight:700;margin-bottom:6px;}
+    .meta-value{font-size:22px;line-height:1.4;font-weight:800;color:#1f2937;}
+    .summary-panel{background:linear-gradient(180deg,#eff5ff 0%,#f3f8ff 100%);border:2px solid var(--line-strong);border-radius:32px;padding:24px 20px 14px;margin-bottom:22px;}
+    .summary-heading{display:flex;align-items:center;gap:16px;margin-bottom:18px;}
+    .summary-heading .icon{font-size:30px;}
+    .summary-heading h2{margin:0;font-size:35px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .summary-card{background:var(--card);border:2px solid #dbe7f7;border-radius:24px;padding:20px 22px;font-size:20px;line-height:1.85;color:#334155;box-shadow:0 8px 24px rgba(148,163,184,.06);margin-bottom:16px;}
+    .summary-label{font-weight:800;color:#1f2937;}
+    .section-block{margin:22px 0 24px;}
+    .section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;}
+    .section-title-wrap{display:flex;align-items:center;gap:14px;min-width:0;}
+    .section-emoji{font-size:32px;line-height:1;}
+    h2{margin:0;font-size:32px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .section-badge{display:inline-flex;align-items:center;justify-content:center;min-width:76px;padding:8px 14px;border-radius:999px;border:2px solid #e5e7eb;background:#fff;color:#475569;font-size:16px;font-weight:700;box-shadow:0 6px 18px rgba(148,163,184,.08);}
+    .news-card,.empty-card{background:var(--card);border:2px solid #e3e8f0;border-radius:24px;padding:22px 24px;box-shadow:0 10px 26px rgba(148,163,184,.08);}
+    .news-card + .news-card{margin-top:16px;}
+    .item-title{font-size:24px;line-height:1.45;font-weight:800;color:#1f2937;margin:0 0 14px;}
+    .item-meta,.item-point,.empty-card{font-size:18px;line-height:1.85;color:#475569;}
+    .item-meta{margin:0 0 8px;}
+    .item-point{margin:0;}
+    .item-label{font-weight:800;color:#334155;}
+    .item-sep{color:#94a3b8;margin:0 8px;}
+    .empty-card{color:#64748b;}
+    a{color:#2f6df6;text-decoration:none;font-weight:700;}
+    @media (max-width: 768px){
+      .wrap{padding:8px;}
+      .hero{padding:22px 20px;align-items:flex-start;gap:16px;}
+      .hero-button{min-width:108px;padding:13px 16px;font-size:16px;}
+      .content{padding:22px 18px 28px;}
+      h1{font-size:28px;margin-bottom:18px;}
+      .meta-stack{grid-template-columns:1fr;}
+      .meta-card{padding:18px 18px;gap:16px;border-radius:22px;}
+      .meta-icon{width:54px;height:54px;border-radius:18px;font-size:28px;}
+      .meta-value{font-size:18px;}
+      .summary-panel{padding:20px 16px 10px;border-radius:26px;}
+      .summary-heading h2{font-size:25px;}
+      .summary-card{padding:18px 18px;font-size:16px;line-height:1.8;border-radius:22px;}
+      .section-emoji{font-size:24px;}
+      h2{font-size:24px;}
+      .section-badge{min-width:64px;padding:7px 12px;font-size:14px;}
+      .news-card,.empty-card{padding:20px 20px;border-radius:22px;}
+      .item-title{font-size:20px;margin-bottom:12px;}
+      .item-meta,.item-point,.empty-card{font-size:16px;line-height:1.8;}
+    }
+  </style>
+</head>
+<body><div class="wrap"><div class="surface">
+<div class="hero">
+  <div class="hero-copy">
+    <div class="hero-kicker">Market Intel Daily</div>
+    <div class="hero-title">行业情报播报 · 钉钉内页预览版</div>
+  </div>
+  <a class="hero-button" href="#industry-news">查看资讯</a>
+</div>
+<div class="content" id="news-content">
+<h1>行业动态日报</h1>
+<div class="meta-stack">
+<div class="meta-card"><div class="meta-icon">🕒</div><div class="meta-copy"><div class="meta-label">统计日期</div><div class="meta-value">2026-04-21（星期二）</div></div></div>
+<div class="meta-card"><div class="meta-icon">📍</div><div class="meta-copy"><div class="meta-label">覆盖范围</div><div class="meta-value">宏观 / AI招聘 / 具身智能 / 竞品</div></div></div>
+</div>
+<section class="summary-panel">
+<div class="summary-heading"><span class="icon">📋</span><h2>核心发现摘要</h2></div>
+<div class="summary-card"><span class="summary-label">宏观政策与行业：</span>本轮新增信号从“就业扩容”延伸到“求职风险治理”，兼职诈骗、培训费骗局等灰黑产风险开始进入高可信媒体持续曝光区间。</div>
+<div class="summary-card"><span class="summary-label">AI招聘/面试：</span>新增事件集中在“AI面试自动化”“招聘AI治理框架”“招聘代理产品化”三条线，招聘软件厂商开始同时卷效率和可信边界。</div>
+<div class="summary-card"><span class="summary-label">具身智能资讯：</span>具身智能新增进展从单点产品发布进一步走向“全球合作落地+融资扩张”，商业化外延比上一轮更强。</div>
+<div class="summary-card"><span class="summary-label">竞品动态：</span>本轮未检索到可核验且未在近7天已发送日报中出现的竞品新增动态。</div>
+</section>
+<section class="section-block" id="industry-news">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">📊</span><h2>行业宏观资讯</h2></div>
+    <div class="section-badge">2 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">澎湃曝光线上兼职“培训费”骗局，求职风险治理信号增强</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-20 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.thepaper.cn/newsDetail_forward_33009912" target="_blank" rel="noreferrer">澎湃新闻</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>报道披露线上兼职培训骗局以“高薪副业”“技能变现”为诱导，通过培训费、分期付款等方式收割求职者，说明灵活就业相关信息流里，风险治理与消费保护正在成为不能忽视的新议题。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">中国网频道报道兼职诱导与求职风险问题，反映灰黑产内容外溢</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-20 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="http://hs.china.com.cn/2026-04/20/content_43401911.html" target="_blank" rel="noreferrer">中国网</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>频道稿件继续指向兼职诱导、求职陷阱与培训消费风险，和澎湃的曝光形成互相印证，说明“兼职诈骗/培训费骗局”已值得纳入宏观观察维度，而不只是单条社会新闻。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🤖</span><h2>AI相关资讯</h2></div>
+    <div class="section-badge">3 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">HackerEarth 发布 OnScreen，主打 7×24 小时 AI 技术面试</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-14 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/hackerearth-launches-onscreen-the-always-on-ai-interview-tool-that-never-misses-a-candidate-302741699.html" target="_blank" rel="noreferrer">PR Newswire</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>产品强调通过 AI 头像面试、身份核验与监考能力减少排期摩擦，面向高并发技术招聘场景补足“面试产能瓶颈”，属于近7天内未在此前已发日报中出现的新事件。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">Greenhouse 发布 AI Principles Framework，明确招聘AI治理边界</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-17 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/greenhouse-launches-ai-principles-framework-setting-the-standard-for-responsible-hiring-in-the-ai-era-302744957.html" target="_blank" rel="noreferrer">PR Newswire</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>框架从候选人数据、偏差审计、可解释性与功能开关治理等维度提出“如何使用AI、如何不使用AI”的明确规则，显示招聘软件厂商开始把“AI合规与可信”作为产品竞争力。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">Asymbl 发布 Talent Intelligence 与 Recruiter Agent，强化数字招聘协同</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-15 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/asymbl-revolutionizes-the-talent-relationship-management-experience-with-talent-intelligence-and-recruiter-agent-products-302742219.html" target="_blank" rel="noreferrer">PR Newswire</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>该发布将人才情报层与招聘代理能力打包进统一平台，强调“数字招聘员+人类招聘团队”协作模式，属于近7天新增且与此前已发事件不重复的产品进展。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🦾</span><h2>具身智能资讯</h2></div>
+    <div class="section-badge">2 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">Whale Cloud 与 AGIBOT 达成战略合作，推进具身智能全球化落地</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-20 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://en.prnasia.com/releases/apac/whale-cloud-and-agibot-announce-strategic-partnership-to-accelerate-global-expansion-of-embodied-ai-529776.shtml" target="_blank" rel="noreferrer">PR Newswire APAC</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>双方宣布围绕运营商与企业场景共同推进具身智能国际化部署，属于 AGIBOT 在“发布能力”之后的新增商业化进展，因此保留为可重复跟踪事件的增量更新。</div>
+</article>
+<article class="news-card">
+  <div class="item-title">它石智航完成天使轮融资，切入具身智能本体与场景落地</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-16 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.21jingji.com/article/20260416/herald/0ec84ef2d38080bca80190393f52213b.html" target="_blank" rel="noreferrer">21世纪经济报道</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>融资事件显示资本仍在继续押注具身智能本体和落地团队建设，与近期数据基础设施和商业合作并行，说明赛道资金与产业化推进仍保持同步。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🏢</span><h2>竞品动态</h2></div>
+    <div class="section-badge">0 条</div>
+  </div>
+  <div class="empty-card">无相关信息</div>
+</section>
+</div></div></div></body></html>
