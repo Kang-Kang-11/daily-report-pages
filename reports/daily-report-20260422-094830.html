@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行业动态日报｜2026-04-22</title>
+  <style>
+    :root{--bg:#f3f7fd;--card:#ffffff;--line:#d9e5f5;--line-strong:#c7daf8;--text:#1e293b;--muted:#64748b;--blue:#2f6df6;--panel:#eef5ff;}
+    *{box-sizing:border-box;}
+    body{margin:0;background:linear-gradient(180deg,#f7fbff 0%,#eff5fc 100%);color:var(--text);font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;}
+    .wrap{max-width:920px;margin:0 auto;padding:16px;}
+    .surface{background:rgba(255,255,255,.72);border:1px solid #d7e5f6;border-radius:28px;overflow:hidden;box-shadow:0 20px 50px rgba(77,114,170,.12);backdrop-filter:blur(8px);}
+    html{scroll-behavior:smooth;}
+    .hero{display:flex;justify-content:space-between;align-items:center;padding:26px 28px;background:linear-gradient(135deg,#cfe3fb 0%,#ddecff 100%);border-bottom:1px solid var(--line-strong);}
+    .hero-kicker{font-size:15px;font-weight:700;color:var(--blue);letter-spacing:.02em;margin:0 0 6px;}
+    .hero-title{font-size:18px;font-weight:700;color:#58708f;margin:0;}
+    .hero-button{display:inline-flex;align-items:center;justify-content:center;min-width:118px;padding:13px 18px;border-radius:999px;background:#fff;color:#536b8f;font-size:17px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(90,125,179,.12);}
+    .content{padding:24px 24px 30px;}
+    h1{margin:0 0 22px;font-size:44px;line-height:1.12;font-weight:800;color:#1f2937;}
+    .meta-stack{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px;}
+    .meta-card{display:flex;align-items:center;gap:18px;background:var(--card);border:2px solid #dbe4f2;border-radius:24px;padding:20px 22px;box-shadow:0 8px 24px rgba(148,163,184,.08);min-width:0;}
+    .meta-icon{width:62px;height:62px;display:flex;align-items:center;justify-content:center;border-radius:20px;background:#f2f6fc;font-size:32px;flex:0 0 auto;}
+    .meta-label{font-size:15px;color:#6b7280;font-weight:700;margin-bottom:6px;}
+    .meta-value{font-size:22px;line-height:1.4;font-weight:800;color:#1f2937;}
+    .summary-panel{background:linear-gradient(180deg,#eff5ff 0%,#f3f8ff 100%);border:2px solid var(--line-strong);border-radius:32px;padding:24px 20px 14px;margin-bottom:22px;}
+    .summary-heading{display:flex;align-items:center;gap:16px;margin-bottom:18px;}
+    .summary-heading .icon{font-size:30px;}
+    .summary-heading h2{margin:0;font-size:35px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .summary-card{background:var(--card);border:2px solid #dbe7f7;border-radius:24px;padding:20px 22px;font-size:20px;line-height:1.85;color:#334155;box-shadow:0 8px 24px rgba(148,163,184,.06);margin-bottom:16px;}
+    .summary-label{font-weight:800;color:#1f2937;}
+    .section-block{margin:22px 0 24px;}
+    .section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:16px;}
+    .section-title-wrap{display:flex;align-items:center;gap:14px;min-width:0;}
+    .section-emoji{font-size:32px;line-height:1;}
+    h2{margin:0;font-size:32px;line-height:1.2;font-weight:800;color:#1f2937;}
+    .section-badge{display:inline-flex;align-items:center;justify-content:center;min-width:76px;padding:8px 14px;border-radius:999px;border:2px solid #e5e7eb;background:#fff;color:#475569;font-size:16px;font-weight:700;box-shadow:0 6px 18px rgba(148,163,184,.08);}
+    .news-card,.empty-card{background:var(--card);border:2px solid #e3e8f0;border-radius:24px;padding:22px 24px;box-shadow:0 10px 26px rgba(148,163,184,.08);}
+    .news-card + .news-card{margin-top:16px;}
+    .item-title{font-size:24px;line-height:1.45;font-weight:800;color:#1f2937;margin:0 0 14px;}
+    .item-meta,.item-point,.empty-card{font-size:18px;line-height:1.85;color:#475569;}
+    .item-meta{margin:0 0 8px;}
+    .item-point{margin:0;}
+    .item-label{font-weight:800;color:#334155;}
+    .item-sep{color:#94a3b8;margin:0 8px;}
+    .empty-card{color:#64748b;}
+    a{color:#2f6df6;text-decoration:none;font-weight:700;}
+    @media (max-width: 768px){
+      .wrap{padding:8px;}
+      .hero{padding:22px 20px;align-items:flex-start;gap:16px;}
+      .hero-button{min-width:108px;padding:13px 16px;font-size:16px;}
+      .content{padding:22px 18px 28px;}
+      h1{font-size:28px;margin-bottom:18px;}
+      .meta-stack{grid-template-columns:1fr;}
+      .meta-card{padding:18px 18px;gap:16px;border-radius:22px;}
+      .meta-icon{width:54px;height:54px;border-radius:18px;font-size:28px;}
+      .meta-value{font-size:18px;}
+      .summary-panel{padding:20px 16px 10px;border-radius:26px;}
+      .summary-heading h2{font-size:25px;}
+      .summary-card{padding:18px 18px;font-size:16px;line-height:1.8;border-radius:22px;}
+      .section-emoji{font-size:24px;}
+      h2{font-size:24px;}
+      .section-badge{min-width:64px;padding:7px 12px;font-size:14px;}
+      .news-card,.empty-card{padding:20px 20px;border-radius:22px;}
+      .item-title{font-size:20px;margin-bottom:12px;}
+      .item-meta,.item-point,.empty-card{font-size:16px;line-height:1.8;}
+    }
+  </style>
+</head>
+<body><div class="wrap"><div class="surface">
+<div class="hero">
+  <div class="hero-copy">
+    <div class="hero-kicker">Market Intel Daily</div>
+    <div class="hero-title">行业情报播报 · 钉钉内页预览版</div>
+  </div>
+  <a class="hero-button" href="#industry-news">查看资讯</a>
+</div>
+<div class="content" id="news-content">
+<h1>行业动态日报</h1>
+<div class="meta-stack">
+<div class="meta-card"><div class="meta-icon">🕒</div><div class="meta-copy"><div class="meta-label">统计日期</div><div class="meta-value">2026-04-22（星期三）</div></div></div>
+<div class="meta-card"><div class="meta-icon">📍</div><div class="meta-copy"><div class="meta-label">覆盖范围</div><div class="meta-value">宏观 / AI招聘 / 具身智能 / 竞品</div></div></div>
+</div>
+<section class="summary-panel">
+<div class="summary-heading"><span class="icon">📋</span><h2>核心发现摘要</h2></div>
+<div class="summary-card"><span class="summary-label">宏观政策与行业：</span>本轮未检索到同时满足“近7天新增、已核验、且与近7天已发日报不重复”的宏观新增事件。</div>
+<div class="summary-card"><span class="summary-label">AI招聘/面试：</span>本轮 AI 招聘新增更偏市场观察，企业开始把 AI 人才缺口、招聘效率和灵活用工能力放进同一套人才竞争逻辑里看待。</div>
+<div class="summary-card"><span class="summary-label">具身智能资讯：</span>具身智能新增信号继续落在“规模化部署”上，头部公司开始把量产、标准化方案和商业化交付放到同一套叙事里。</div>
+<div class="summary-card"><span class="summary-label">竞品动态：</span>本轮未检索到可核验且未在近7天已发送日报中出现的竞品新增动态。</div>
+</section>
+<section class="section-block" id="industry-news">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">📊</span><h2>行业宏观资讯</h2></div>
+    <div class="section-badge">0 条</div>
+  </div>
+  <div class="empty-card">无相关信息</div>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🤖</span><h2>AI相关资讯</h2></div>
+    <div class="section-badge">1 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">24 Seven 发布 2026 Salary Guide，AI 与招聘速度成为人才竞争关键变量</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-21 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/24-sevens-2026-salary-guide-signals-a-talent-market-in-reset-as-ai-and-hiring-speed-redefine-competition-302748738.html" target="_blank" rel="noreferrer">PR Newswire / 24 Seven</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>这份报告基于 2000 多名从业者样本指出，AI 人才需求上升的同时，企业在技能评估和岗位填补效率上仍面临明显压力，灵活人才解决方案正从临时补位手段转向 AI 工作交付的重要组成部分。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🦾</span><h2>具身智能资讯</h2></div>
+    <div class="section-badge">1 条</div>
+  </div>
+  <article class="news-card">
+  <div class="item-title">AGIBOT 提出“2026 部署元年”，强调万台量产与七类标准化方案落地</div>
+  <div class="item-meta"><span class="item-label">日期：</span>2026-04-17 <span class="item-sep">｜</span> <span class="item-label">来源：</span><a href="https://www.prnewswire.com/news-releases/agibot-declares-2026-deployment-year-one--at-apc-2026-accelerating-the-era-of-embodied-ai-productivity-302746171.html" target="_blank" rel="noreferrer">PR Newswire / AGIBOT</a></div>
+  <div class="item-point"><span class="item-label">看点：</span>AGIBOT 在 APC 2026 上把“部署元年”作为核心口径，披露截至 2026 年 3 月已完成第 10000 台机器人下线，并推出覆盖装卸、分拣、导览、零售服务和巡检清洁等场景的七类标准化方案，显示具身智能公司正在把量产能力和标准化交付一起推向商业化。</div>
+</article>
+</section>
+<section class="section-block">
+  <div class="section-head">
+    <div class="section-title-wrap"><span class="section-emoji">🏢</span><h2>竞品动态</h2></div>
+    <div class="section-badge">0 条</div>
+  </div>
+  <div class="empty-card">无相关信息</div>
+</section>
+</div></div></div></body></html>
